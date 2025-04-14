@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صدقة جارية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Amiri', serif;
+      background: url('https://i.imgur.com/8zq0VRL.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 25px;
+      font-size: 2em;
+    }
+
+    .section {
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 30px auto;
+      padding: 30px;
+      max-width: 900px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.3);
+    }
+
+    h2 {
+      color: #ffd700;
+      margin-bottom: 20px;
+    }
+
+    a.quran-link, a.donation-link, a.surah-link {
+      display: inline-block;
+      margin: 7px;
+      padding: 10px 18px;
+      text-decoration: none;
+      background-color: #2e8b57;
+      color: white;
+      border-radius: 10px;
+      font-size: 1em;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background-color: #246d48;
+    }
+
+    .hadith {
+      margin-top: 20px;
+      font-size: 1.3em;
+    }
+
+    .surah-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-height: 400px;
+      overflow-y: scroll;
+      margin-top: 20px;
+    }
+
+    .live-stream img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 315px;
+      border-radius: 12px;
+      border: none;
+    }
+
+    footer {
+      background-color: rgba(0,0,0,0.8);
+      padding: 20px;
+      font-size: 1em;
+      color: #ccc;
+    }
+
+    .small-note {
+      font-size: 0.9em;
+      color: #bbb;
+      margin-top: 10px;
+    }
+
+    @media(max-width: 600px) {
+      h2 { font-size: 1.3em; }
+      .hadith { font-size: 1em; }
+      a.quran-link, a.surah-link { font-size: 0.9em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    موقع صدقة جارية
+  </header>
+
+  <div class="section live-stream">
+    <h2>البث المباشر من الحرم المكي</h2>
+    <img src="https://i.imgur.com/Ec9t2ho.jpg" alt="صورة الحرم">
+    <iframe src="https://www.youtube.com/embed/sPNgnl4Bnls" allowfullscreen></iframe>
+  </div>
+
+  <div class="section">
+    <h2>سور القرآن الكريم</h2>
+    <p>اختر السورة التي تحب الاستماع إليها:</p>
+    <div class="surah-list">
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=1_1" target="_blank">الفاتحة</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=2_1" target="_blank">البقرة</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=3_1" target="_blank">آل عمران</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=4_1" target="_blank">النساء</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=5_1" target="_blank">المائدة</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=6_1" target="_blank">الأنعام</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=7_1" target="_blank">الأعراف</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=8_1" target="_blank">الأنفال</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=9_1" target="_blank">التوبة</a>
+      <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=10_1" target="_blank">يونس</a>
+      <!-- تقدر أضيف لك باقي السور لاحقاً -->
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>أحاديث نبوية</h2>
+    <div class="hadith">قال رسول الله ﷺ: "الدال على الخير كفاعله".</div>
+    <div class="hadith">قال رسول الله ﷺ: "إذا مات ابن آدم انقطع عمله إلا من ثلاث: صدقة جارية أو علم يُنتفع به أو ولد صالح يدعو له".</div>
+  </div>
+
+  <div class="section">
+    <h2>ساهم في الخير</h2>
+    <a class="donation-link" href="https://ehsan.sa" target="_blank">التبرع عبر إحسان</a>
+  </div>
+  <div class="section">
+    <h2>شارك الأجر مع أحبابك</h2>
+    <a class="donation-link" href="https://api.whatsapp.com/send?text=انضم%20لأجر%20الصدقة%20الجارية%20من%20هذا%20الموقع:%20https://yourwebsite.com" target="_blank">مشاركة في واتساب</a>
+    <a class="donation-link" href="https://twitter.com/intent/tweet?text=موقع%20صدقة%20جارية%20فيه%20قرآن%20وبث%20مباشر%20من%20الحرم:%20https://yourwebsite.com" target="_blank">مشاركة في تويتر</a>
+    <button class="donation-link" onclick="copyLink()">نسخ الرابط</button>
+  </div>
+  
+  <script>
+    function copyLink() {
+      const dummy = document.createElement("input");
+      const url = "https://yourwebsite.com"; // عدليه إذا رفعتي الموقع
+      document.body.appendChild(dummy);
+      dummy.value = url;
+      dummy.select();
+      document.execCommand("copy");
+      document.body.removeChild(dummy);
+      alert("تم نسخ رابط الموقع!");
+    }
+  </script>
+  
+  <footer>
+    تم إنشاء هذا الموقع بنية الصدقة الجارية. نسأل الله القبول.
+    <div class="small-note">صدقة جارية لفهد أحمد الخديدي وعائلته ولكل من ساهم في نشر الرابط</div>
+  </footer>
+
+</body>
+</html>
