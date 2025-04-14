@@ -66,13 +66,6 @@
       margin-top: 20px;
     }
 
-    .live-stream img {
-      width: 100%;
-      max-width: 500px;
-      border-radius: 12px;
-      margin-bottom: 20px;
-    }
-
     iframe {
       width: 100%;
       max-width: 600px;
@@ -109,7 +102,6 @@
 
   <div class="section live-stream">
     <h2>البث المباشر من الحرم المكي</h2>
-    <img src="https://i.imgur.com/Ec9t2ho.jpg" alt="صورة الحرم">
     <iframe src="https://www.youtube.com/embed/sPNgnl4Bnls" allowfullscreen></iframe>
   </div>
 
@@ -127,7 +119,6 @@
       <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=8_1" target="_blank">الأنفال</a>
       <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=9_1" target="_blank">التوبة</a>
       <a class="surah-link" href="https://quran.ksu.edu.sa/index.php#aya=10_1" target="_blank">يونس</a>
-      <!-- تقدر أضيف لك باقي السور لاحقاً -->
     </div>
   </div>
 
@@ -141,17 +132,18 @@
     <h2>ساهم في الخير</h2>
     <a class="donation-link" href="https://ehsan.sa" target="_blank">التبرع عبر إحسان</a>
   </div>
+
   <div class="section">
     <h2>شارك الأجر مع أحبابك</h2>
-    <a class="donation-link" href="https://api.whatsapp.com/send?text=انضم%20لأجر%20الصدقة%20الجارية%20من%20هذا%20الموقع:%20https://yourwebsite.com" target="_blank">مشاركة في واتساب</a>
-    <a class="donation-link" href="https://twitter.com/intent/tweet?text=موقع%20صدقة%20جارية%20فيه%20قرآن%20وبث%20مباشر%20من%20الحرم:%20https://yourwebsite.com" target="_blank">مشاركة في تويتر</a>
+    <a class="donation-link" href="https://api.whatsapp.com/send?text=انضم%20لأجر%20الصدقة%20الجارية%20من%20هذا%20الموقع:%20https://i2iid.github.io/SadqaSite/" target="_blank">مشاركة في واتساب</a>
+    <a class="donation-link" href="https://twitter.com/intent/tweet?text=موقع%20صدقة%20جارية%20فيه%20قرآن%20وبث%20مباشر%20من%20الحرم:%20https://i2iid.github.io/SadqaSite/" target="_blank">مشاركة في تويتر</a>
     <button class="donation-link" onclick="copyLink()">نسخ الرابط</button>
   </div>
-  
+
   <script>
     function copyLink() {
       const dummy = document.createElement("input");
-      const url = "https://yourwebsite.com"; // عدليه إذا رفعتي الموقع
+      const url = "https://i2iid.github.io/SadqaSite/";
       document.body.appendChild(dummy);
       dummy.value = url;
       dummy.select();
@@ -160,7 +152,7 @@
       alert("تم نسخ رابط الموقع!");
     }
   </script>
-  
+
   <footer>
     تم إنشاء هذا الموقع بنية الصدقة الجارية. نسأل الله القبول.
     <div class="small-note">صدقة جارية لفهد أحمد الخديدي وعائلته ولكل من ساهم في نشر الرابط</div>
